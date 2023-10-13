@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
-Web server 
+Web server
+
 """
+
 from api.v1.views import app_views
 from flask import Flask, jsonify, make_response
 
